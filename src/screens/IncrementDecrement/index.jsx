@@ -2,7 +2,7 @@
 import React from 'react';
 import {View, Text, Button} from 'react-native';
 import {connect} from 'react-redux';
-import {increment, decrement} from './actions';
+import {increment, decrement} from '../../Redux/Action/action';
 
 const CounterComponent = ({count, increment, decrement}) => {
   return (
